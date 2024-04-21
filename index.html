@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="luxury_hotels" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotels</title>
+    <link rel="stylesheet" href="stylemain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/text/images/free-icon-loupe-751463.ico" type="image/x-icon">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="logo-container"> <span class="logo-luxury">Luxury</span> <span class="logo-hotels">Hotels</span>
+        </div>
+
+        <nav class="menu">
+            <ul class="menu-container">
+                <li class="menu li"><a class="current-page" href="index.html">Головна</a></li>
+                <li class="menu li dropdown">
+                    <a href="News.html">Актуальна інформація</a>
+                    <div class="dropdown-content">
+                        <a href="News.html">2-х кімнатні апартаменти </a>
+                        <a href="#">3-х кімнатні апартаменти</a>
+                        <a href="#">4-х кімнатні апартаменти</a>
+                        <a href="#">Будиночок</a>
+                    </div>
+                </li>
+                <li class="menu li"><a href="book.html">Замовити</a></li>
+                <!-- <li class="menu li"><a href="Poll.html">Опитування</a></li> -->
+
+                <div class="popup-bg">
+                    <div class="popup">
+                        <img class="close-popup" src="/text/images/close.png" alt="">
+                        <form action="">
+                            <input type="text">
+                            <input type="tel">
+                            <input value="Send" type="submit">
+                        </form>
+                    </div>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="hero_index">
+            <div class="page-title">
+                <span class="span1">Welcome to</span> <br />
+                <span class="span3">Luxury</span> <br />
+                <span class="span2">hotels</span><br />
+                <p class="text1">
+                    Забронюйте проживання та насолоджуйтеся розкішшю
+                    за найдоступнішими цінами.
+                </p>
+            </div>
+
+            <div class="search-box">
+                <input class="search-txt" placeholder="Пошук.." name="search">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+
+            <button class="button_hero">
+                <span>Бронюй зараз</span>
+            </button>
+
+            <a class="top" href="#main">
+                <div></div>
+            </a>
+        </section>
+
+        <div class="section">
+            <p class="section_hero_p">
+                Усі типи номерів включають безкоштовний сніданок
+            </p>
+        </div>
+
+        <section class="index">
+            <ul>
+                <li>
+                    <div>
+                        <h2 id="main">Переосмислення розкоші</h2>
+                        <p>
+                            Наші кімнати призначені для транспортування
+                            вас в середовище, створене для дозвілля.
+                            Відволікайтеся від повсякденної роботи вдома
+                            життя та знайдіть приватний рай для себе.
+                        </p>
+                        <button>
+                            Дізнатись більше
+                        </button>
+                    </div>
+
+                    <img src="/text/images/steven-ungermann-aRT5UCf2MYY-unsplash.jpg" width="300">
+                    
+                </li>
+                <li>
+                    <div>
+                        <h2>
+                            Залиште свої турботи на піску
+                        </h2>
+                        <p>
+                            Ми любимо життя на пляжі. Бути поруч
+                            до океану з виходом на нескінченні піщані
+                            пляжі забезпечує спокійний стан душі. Це
+                            здається, що час зупинився, спостерігаючи за
+                            океаном.
+                        </p>
+                        <button>
+                            Дізнатись більше
+                        </button>
+                    </div>
+                    <img src="/text/images/andrew-ruiz-fmz-B9At9iQ-unsplash (1).jpg" width="300">
+                </li>
+            </ul>
+        </section>
+
+        <section class="testimonial">
+            <h2 class="testimonial h2">Відгуки</h2>
+            <p>
+                «Спокій, безтурботність, ретро – який спосіб розслабитися та отримати задоволення»
+            </p>
+            <p>
+                Містер і місіс Бакстер, Великобританія
+            </p>
+            <div class="quote ul">
+                <ul class="quote ul">
+                    <li class="quote ul li"><button class="quote ul li button">&#60;</button></li>
+                    <li class="quote ul li"><button class="quote ul li button">&#62;</button></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="scroll-to-top">
+            <a id="scrollButton">
+                <div></div>
+            </a>
+        </div>
+
+        <div id="subscriptionModal" class="modal">
+            <div class="modal-content">
+                <span class="close-popup">&times;</span>
+                <p>Приєднуйтеся до нашої розсилки та отримуйте останні оновлення!</p>
+                <button class="button_ad" id="acceptSubscription">Прийняти</button>
+                <button class="button_ad" id="rejectSubscription">Відхилити</button>
+            </div>
+        </div>
+
+
+        <div class="div_ad">
+            <p class="p_ad">Підпишіться на повідомлення</p>
+            <button class="button_ad" id="subscribe_ad">Підписатися</button>
+            <button class="button_ad" id="close-button">Закрити</button>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="logo-fouter-container"> <span class="logo-luxury">Lyxyry</span> <span
+                class="logo-hotels">hotels</span></div>
+        <div class="left">
+            <a href="https://goo.gl/maps/JZCiQYJBEJ92gMPe6" target="_blank">
+                <address>м. Чернівці, вул. Університецька, 28</address>
+            </a>
+            <p>+380988106261</p>
+            <a href="luxury_hotels@gmail.com" target="_blank">Зв'яжіться з нами</a>
+        </div>
+        <ul class="right">
+            <li><a href="https://www.facebook.com/fmi.org.ua/">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="https://instagram.com/studprofkom.cv.ua?igshid=MzRlODBiNWFlZA==">Instagram</a></li>
+        </ul>
+
+        <div class="Mar">
+            <h3>Підпишіться на нашу розсилку</h3>
+            <input class="input-field" type="text" name="email" id="email">
+            <button class="button-icon" type="button" id="subscribe">Підписатися</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
