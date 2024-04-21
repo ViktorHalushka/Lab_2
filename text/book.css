@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
+    width: 85%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1px;
+    border: 3px solid #000; 
+}
+
+
+.container p{
+    padding-top: -10%;
+    font-size: 20px;
+}
+
+.filter{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4%; 
+}
+
+.filter button{
+    background-color: #E0B973; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
