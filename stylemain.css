@@ -151,7 +151,7 @@ body {
 }
 
 .hero {
-  background: url("/text/images/12.png") no-repeat center center fixed;
+  background: url("12.png") no-repeat center center fixed;
   position: relative;
   background-size: cover;
   width: 100%;
@@ -162,7 +162,7 @@ body {
 }
 
 .hero_index{
-  background: url("/text/images/back.png") no-repeat center center fixed;
+  background: url("back.png") no-repeat center center fixed;
   position: relative;
   background-size: cover;
   width: 100%;
@@ -172,7 +172,7 @@ body {
   align-items: center;
 }
 .hero_book{
-  background: url("/text/images/header.jpg") no-repeat center center fixed;
+  background: url("header.jpg") no-repeat center center fixed;
   position: relative;
   background-size: cover;
   width: 100%;
