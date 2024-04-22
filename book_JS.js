@@ -1,8 +1,8 @@
 let images = [
-    {description: 'Опис 1', title: 'Однокімнатні апартаменти' ,url: '/text/images/image_1.jpg' },
-    {description: 'Опис 1', title: 'Двокімнатні апартаменти' , url: '/text/images/image_2.png' },
-    {description: 'Опис 1', title: 'Трьокімнатні апартаменти' , url: '/text/images/Трьокімнатні апартаменти.png' },
-    {description: 'Опис 1', title: 'Будиночок' , url: '/text/images/Будиночок.png' },
+    {description: 'Опис 1', title: 'Однокімнатні апартаменти' ,url: 'image_1.jpg' },
+    {description: 'Опис 1', title: 'Двокімнатні апартаменти' , url: 'image_2.png' },
+    {description: 'Опис 1', title: 'Трьокімнатні апартаменти' , url: 'Трьокімнатні апартаменти.png' },
+    {description: 'Опис 1', title: 'Будиночок' , url: 'Будиночок.png' },
 
 ];
 
